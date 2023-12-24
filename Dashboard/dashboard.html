@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Your Dashboard</title>
+</head>
+
+<body class="bg-gray-100 font-sans flex">
+    <aside class="bg-gray-800 text-gray-300 w-1/5 min-h-screen p-4">
+        <div class="mb-4">
+            <ul>
+                <li class="relative group">
+                    <a href="#" class="flex items-center py-2 px-4 hover:bg-gray-700 transition duration-300">
+                        <span>Dashboard</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            class="h-4 w-4 ml-auto">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </a>
+                    <ul class="absolute text-gray-200 mt-2 p-2 rounded-md space-y-2 group-hover:block z-10">
+                        <li><a href="#" class="block px-2 py-1">Option 1</a></li>
+                        <li><a href="#" class="block px-2 py-1">Option 2</a></li>
+                        <li><a href="#" class="block px-2 py-1">Option 3</a></li>
+                        <li><a href="#" class="block px-2 py-1">Option 4</a></li>
+                        <li><a href="#" class="block px-2 py-1">Option 5</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+
+    <div class="flex-1 p-4">
+        <nav class="bg-blue-500 p-4 mb-4 flex items-center justify-between">
+            <a href="#" class="text-white text-lg font-semibold">Your Dashboard</a>
+
+            <div class="flex items-center flex-1 justify-center">
+                <input type="text" placeholder="Search..."
+                    class="px-3 py-2 rounded-md focus:outline-none focus:ring focus:border-blue-300">
+                <button class="ml-2 bg-white text-blue-500 px-4 py-2 rounded-md">Search</button>
+            </div>
+
+            <div class="flex items-center">
+                <img src="user-image.jpg" alt="User" class="w-8 h-8 rounded-full">
+                <span class="text-white ml-2">John Doe</span>
+            </div>
+
+        </nav>
+
+        <div class="flex justify-center items-center">
+            <img src="./gradient-infographic-element-collection_52683-26040.avif" alt="Image"
+                class="max-w-full max-h-full">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
