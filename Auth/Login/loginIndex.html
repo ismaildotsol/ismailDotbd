@@ -26,7 +26,15 @@
                         placeholder="Enter your password" required>
                 </div>
 
-                <button type="submit" class="bg-blue-500 text-white p-2 rounded-md w-full">Login</button>
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center">
+                        <input type="checkbox" id="rememberMe" name="rememberMe" class="mr-2">
+                        <label for="rememberMe" class="text-sm text-gray-700">Remember me</label>
+                    </div>
+                    <a href="#" class="text-sm text-blue-500">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="mt-2 bg-blue-500 text-white p-2 rounded-md w-full">Login</button>
             </form>
             <div class="footer mt-4 text-cyan-500">Don't have an account? <a href="/Registration/regIndex.html"
                     class="text-blue-700 font-semibold rounded-md w-full">Sign Up</a></div>
